@@ -1,0 +1,8 @@
+[http]
+	proxy = socks5://127.0.0.1:20170
+[https]
+	proxy = socks5://127.0.0.1:20170
+[safe]
+	directory = /opt/homebrew/Homebrew
+[url "https://ghproxy.com/github.com"]
+	insteadOf = https://github.com
